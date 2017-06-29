@@ -1,0 +1,24 @@
+div#header {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: #6d716d; }
+
+div#board {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background: url("../images/tictac_grid.png") no-repeat; }
+  div#board table {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-spacing: 0px; }
+    div#board table td {
+      width: 166.67px;
+      height: 166.67px; }
+  div#board .x_space {
+    background: url("../images/x_sprite.png") no-repeat center center; }
+  div#board .o_space {
+    background: url("../images/o_sprite.png") no-repeat center center; }
